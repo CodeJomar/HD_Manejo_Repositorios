@@ -1,0 +1,36 @@
+/* General */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hero Section */
+main section h1 {
+  color: #212529;
+}
+
+main section p {
+  color: #555;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
+
+footer a {
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #0d6efd;
+}
